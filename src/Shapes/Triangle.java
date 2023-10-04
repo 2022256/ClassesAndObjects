@@ -21,10 +21,10 @@ public class Triangle {
         if (side1 > 0)
                   {this.side1 = side1;}
         else { 
-                   System.out.println("cannot kakatb");
+                  System.out.println("cannot kakatb");
              }
     }
-
+ 
     public int getSide2() {
         return side2;
     }

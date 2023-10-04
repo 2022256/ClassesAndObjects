@@ -46,7 +46,12 @@ public class ClassesAndObjects {
        
        Person P = new Person();
        
+       Rectangle ept = new Rectangle();
        
+       
+       
+        System.out.println(ept.getArea());
+        
     }
     
 }
