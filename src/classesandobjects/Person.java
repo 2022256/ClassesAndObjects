@@ -3,11 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package classesandobjects;
-
+import Shapes.*;
 /**
  *
  * @author 4istik
  */
-class Triangle {
+public class Person {
+    private String name;
+    private String nationality;
+    private int age;
+    private double networth;
+    Triangle favTriangle;
     
-}
+    
+    
+    
+    }

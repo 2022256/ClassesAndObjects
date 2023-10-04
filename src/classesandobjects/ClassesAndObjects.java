@@ -4,6 +4,8 @@
  */
 package classesandobjects;
 
+import Shapes.*;
+
 /**
  *
  * @author 4istik
@@ -40,6 +42,10 @@ public class ClassesAndObjects {
        sideLengths[13] = 3;
        sideLengths[16] = 3;
                       
+       
+       
+       Person P = new Person();
+       
        
     }
     
