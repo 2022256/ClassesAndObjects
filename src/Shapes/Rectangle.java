@@ -9,9 +9,9 @@ package Shapes;
  *
  * @author 4istik
  */
-public class Rectangle {
+public class Rectangle extends Shape{
     private boolean isFilled;
-    private String color;
+    protected String color;
     private double height;
     private double width;
 
@@ -23,7 +23,13 @@ public class Rectangle {
         return width;
     }
     
+    @Override
     public double getArea() {
         return width*height;
+    }
+    
+    @Override
+    public void setColor(String color){
+        this.color = color;
     }
 }

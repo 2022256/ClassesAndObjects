@@ -8,7 +8,7 @@ package Shapes;
  *
  * @author 4istik
  */
-public class Triangle {
+public class Triangle extends Shape {
     private int side1;
      private int side2;
      private int side3;
@@ -40,6 +40,14 @@ public class Triangle {
     public void setSide3(int side3) {
         this.side3 = side3;
     }
+    
+
+@Override
+public double getArea() {
+    
+        return 0.5 * side1 * side2;
+    
+}
      
      
 }
